@@ -1,7 +1,7 @@
 
 Musica:
 #Composicao: Reizao
-👋 LIBERACÕES no ZAP: 11 93224-5830 (Reizao)
+👋 Contatos_no_Site: https://sites.google.com/view/reizaomusic
 ---
 interpretacao:
 Link_no_Insta :

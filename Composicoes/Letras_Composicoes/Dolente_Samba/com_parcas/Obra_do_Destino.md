@@ -7,7 +7,7 @@
 CONTATOS
 *instagram : @Compositor_REIZAO   *twitter: @ReizaoMusic
 Canal_Youtube: @ReizaoMusic
-Telefone_no_Site: www.sites.google.com/view/reinaldoreizao10
+Contatos_no_Site: https://sites.google.com/view/reizaomusic
 ---
 interpretacao:  @Cantorcaeto
 Link_no_Insta : https://www.instagram.com/reel/C-ONPg5PCsW/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
