@@ -1,12 +1,19 @@
-# Musica : OBRA DO DESTINO
-• #compositor(s) : ReinaldoREIZAO / PaulinhoDC
+# #Musica: OBRA DO DESTINO
+#Composicao: Paulinho DC / Reizao
+
+👋 LIBERACÕES no ZAP: 11 93224-5830 (Reizao)
 • Data : 01/01/2005
 ---
 CONTATOS
-*instagram : @ReizaoMusic   *twitter: @ReizaoMusic
+*instagram : @Compositor_REIZAO   *twitter: @ReizaoMusic
 Canal_Youtube: @ReizaoMusic
 Telefone_no_Site: www.sites.google.com/view/reinaldoreizao10
 ---
+interpretacao:  @Cantorcaeto
+Link_no_Insta : https://www.instagram.com/reel/C-ONPg5PCsW/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+
+link_no_Youtube: https://youtu.be/deU2WB5kmvE
+
 ------------------------------------
 
 SE É OBRA DO DESTINO A GENTE SE CONHECER
@@ -16,15 +23,16 @@ O TEU JEITO NÃO ME ENGANA
 SE FAZ DIFICIL MAS ME QUÉR
 
 SÓ CONFUNDE O PENSAMENTO
-MAS TE TENHO AQUI POR DENTRO
+MAS TENHO VOCÊ AQUI DENTRO
 
 DENTRO DO CORAÇÃO
-QUE QUASE PARA AO TE VE
-DÁ DE BANDEJA ESSA PAIXÃO SÓ PRA VOCÊ...
+QUE QUASE PARA AO TE VER
+É DE BANDEJA ESSA PAIXÃO SÓ PRA VOCÊ...
 
-NÃO MALTRATA VE SE ENTENDE QUE ALGO TÃO LINDO ASSIM
+NÃO MALTRATA VE SE ENTENDE
+QUE UM AMOR TÃO LINDO ASSIM
 NÃO É FACIL DE ACHAR
-POR ISSO AO MEU LADO É TEU LUGAR
+VEM QUE AQUI É TEU LUGAR
 
 UM GRANDE AMOR
 GUARDEI A VIDA INTEIRA PRA TE DAR
@@ -32,7 +40,7 @@ VEM LOGO DE UMA VEZ
 NÃO SOU BRINQUEDO PRA VOCE BRINCAR
 
 UNIR TEU CORPO AO MEU
-JA QUE DESDE O DIA QUE TE CONHECI
+NAQUELE DIA QUE TE CONHECI
 FEZ RENASCER, FEZ DESPERTAR
 A PAIXÃO EM MIM !
 

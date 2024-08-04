@@ -3,6 +3,7 @@
 > link: (modulo: 3 - aula 7 :: )[https://hotmart.com/pt-BR/club/area-de-membros-wluiz/products/1705091/content/kOXX0aQaOW]
 
 mentalidade: obediencia tempo de exercicios nem mais nem menos.
+conceito: exercicios que melhora afinacao, passagem de grave para agudo, agudos com mais potencia.
 
 alongamento : [
   conceito: tirar todas tensoes e melhorar a articulacao
