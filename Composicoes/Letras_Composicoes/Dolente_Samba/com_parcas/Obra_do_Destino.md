@@ -1,13 +1,10 @@
 # #Musica: OBRA DO DESTINO
 #Composicao: Paulinho DC / Reizao
-
-👋 LIBERACÕES no ZAP: 11 93224-5830 (Reizao)
-• Data : 01/01/2005
 ---
 CONTATOS
-*instagram : @Compositor_REIZAO   *twitter: @ReizaoMusic
-Canal_Youtube: @ReizaoMusic
-Contatos_no_Site: https://sites.google.com/view/reizaomusic
+👋 Contatos_no_Site: https://sites.google.com/view/reizaomusic
+Instagram: www.instagram.com/compositor_reizao/
+Youtube: www.youtube.com/@ReizaoMusic
 ---
 interpretacao:  @Cantorcaeto
 Link_no_Insta : https://www.instagram.com/reel/C-ONPg5PCsW/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
@@ -45,6 +42,8 @@ FEZ RENASCER, FEZ DESPERTAR
 A PAIXÃO EM MIM !
 
 -------------------------------------
+
+• Data : 01/01/2005
 
 Sinopse_Musical :
 @Categorias : [ Dolente ]
