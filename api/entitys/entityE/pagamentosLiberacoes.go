@@ -1,4 +1,4 @@
-package entitySubCooperAuxService
+package entityE
 
 type PagamentosLiberacoes struct {
 	ValorContratado int

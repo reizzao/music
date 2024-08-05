@@ -1,8 +1,8 @@
-package entitySub
+package entityB
 
 type MusicaComposicao struct {
 	Nome         string
 	Compositores string
-	Contatos     []ContatosComposicao
+	Contatos     string //TODO : []ContatosComposicao
 	Gravacoes    []GravacoesComposicoes
 }
