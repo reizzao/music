@@ -1,6 +1,4 @@
-package entitySubCooper
-
-import "github.com/reizzao/music/api/entitySubCooperAux"
+package cooperentitySub
 
 type EstadoAtualTrabalho struct {
 	ContratoComposicao entitySubCooperAux.ContratoComposicao

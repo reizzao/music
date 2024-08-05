@@ -1,6 +1,4 @@
-package entitySub
-
-import "github.com/reizzao/music/api/entity/entitySubCooper"
+package subentity
 
 type GravacoesComposicoes struct {
 	Interprete          string
