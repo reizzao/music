@@ -2,9 +2,10 @@
 
 INSTAGRAM - YOUTUBE
 
+TOP ::
+
 @belo  #cantorbelo
 @doceencontro #doceencontro
-@xandedepilares  #xandedepilares
 @gloriagroove
 @alexandrepires_
 @thiaguinho
@@ -12,7 +13,9 @@ INSTAGRAM - YOUTUBE
 @produtormusicalonline
 @marcioart #marcioart
 @leandrobrito_oficial
+@grupopixote
 ---
+
 @dilsinho
 @grupomenosemais  #menosémais
 @ludmilla  #ludmilla
@@ -21,7 +24,6 @@ INSTAGRAM - YOUTUBE
 @pericles #pericles
 @sorrisomaroto  #sorrisomaroto
 @netinhodepaula  #netinhodepaula
-@prateadobass
 @marquinhossensacao
 ---
 @cantorwilsinho  #cantorwilsinho
@@ -34,3 +36,9 @@ INSTAGRAM - YOUTUBE
 @dudunobre  #dudunobre
 @zecapagodinho  #zecapagodinho
 @artpopular  #artpopular
+
+---
+@dodopixote
+
+---
+ASCENDENCIA ::

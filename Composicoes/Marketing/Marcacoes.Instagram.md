@@ -8,4 +8,4 @@ Dolentes_Samba : marcar:
 
 @dilsinho @grupomenosemais @ludmilla @mumuzinho @ferrugem  @pericles @sorrisomaroto @netinhodepaula @prateadobass @marquinhossensacao
 
-@cantorwilsinho @dineyoficial @pezinhofirmenarocha @salgadinho
+@cantorwilsinho @dineyoficial @pezinhofirmenarocha @salgadinho @ruxellnobeat @grupopixote @dodopixote
