@@ -51,10 +51,10 @@ Sinopse_Musical :
 * Harmonia :
 tom: E
 Bpm :
-parte: "A", notas: [ B7 E C#M  A G#M D7 B7 ]
-parte: "B", notas: [ B7 E C#M  A G#M - BM - E7  ]
-parte: "C", notas: [ A G#M - BM E7 A G#M  ]
-parte: "D", notas: [ A G#M - Dº F#M  B7 E7 ]
-parte: "REFRAO", notas: [ A G#M - BM E7 A G#M - BM E7 A - G#7 C#M BM E7 ]
+parte: "A", acordes: [ B7 E C#M  A G#M D7 B7 ]
+parte: "B", acordes: [ B7 E C#M  A G#M - BM - E7  ]
+parte: "C", acordes: [ A G#M - BM E7 A G#M  ]
+parte: "D", acordes: [ A G#M - Dº F#M  B7 E7 ]
+parte: "REFRAO", acordes: [ A G#M - BM E7 A G#M - BM E7 A - G#7 C#M BM E7 ]
 
 ------------------------------------

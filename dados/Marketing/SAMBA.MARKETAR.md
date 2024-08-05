@@ -1,0 +1,2 @@
+SE CURTIREM FALEM COM O COMPOSITOR : https://sites.google.com/view/reizaomusic
+@prateadobass @walmirborges @mmzmusicprodutora @bcbrunocardoso @lincolndelima @rooftopmusic @ludmilla @mumuzinho @grupopixote @grupomenosemais

@@ -2,5 +2,6 @@
 
 @prateadobass
 @walmirborges
-mumuzinho : @mmzmusicprodutora / @bcbrunocardoso
-ferrugem : @lincolndelima
+@mmzmusicprodutora -> mumuzinho
+@bcbrunocardoso
+@lincolndelima -> ferrugem
