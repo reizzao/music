@@ -19,4 +19,5 @@ type ArtistasPropsMKT struct {
 type ProdutorProps struct {
 	Youtube   string
 	Instagram string
+	Email string
 }
