@@ -3,7 +3,7 @@ package marketingRedesSeed
 import "github.com/reizzao/music/api/entitys/entityA"
 
 var Artista_Mumuzinho = entityA.Artistas{
-	Props: entityA.MarketingRedesProps{
+	Props: entityA.ArtistasPropsMKT{
 		Nome:      "",
 		Genero:    "",
 		Youtube:   "",
@@ -13,7 +13,7 @@ var Artista_Mumuzinho = entityA.Artistas{
 }
 
 var Artista_Ferrugem = entityA.Artistas{
-	Props: entityA.MarketingRedesProps{
+	Props: entityA.ArtistasPropsMKT{
 		Nome:      "",
 		Genero:    "",
 		Youtube:   "",

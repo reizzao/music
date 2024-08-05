@@ -4,28 +4,16 @@ type MarketingRedes struct {
 	Artistas []Artistas
 }
 
-type MarketingRedesProps struct {
+type Artistas struct {
+	Props    ArtistasPropsMKT
+	Produtor ProdutorProps
+}
+
+type ArtistasPropsMKT struct {
 	Nome      string
 	Genero    string
 	Youtube   string
 	Instagram string
-}
-
-type Gravadoras struct {
-	Props MarketingRedesProps
-}
-
-type Produtores struct {
-	Props MarketingRedesProps
-}
-
-type Escritorios struct {
-	Props MarketingRedesProps
-}
-
-type Artistas struct {
-	Props    MarketingRedesProps
-	Produtor ProdutorProps
 }
 
 type ProdutorProps struct {
