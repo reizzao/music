@@ -20,16 +20,16 @@ O TEU JEITO NÃO ME ENGANA
 SE FAZ DIFICIL MAS ME QUÉR
 
 SÓ CONFUNDE O PENSAMENTO
-MAS TENHO VOCÊ AQUI DENTRO
+POIS TENHO VOCÊ AQUI DENTRO
 
-DENTRO DO CORAÇÃO
+PERTO DO CORAÇÃO
 QUE QUASE PARA AO TE VER
 É DE BANDEJA ESSA PAIXÃO SÓ PRA VOCÊ...
 
 NÃO MALTRATA VE SE ENTENDE
 QUE UM AMOR TÃO LINDO ASSIM
 NÃO É FACIL DE ACHAR
-VEM QUE AQUI É TEU LUGAR
+VEM QUE AQUI É SEU LUGAR
 
 UM GRANDE AMOR
 GUARDEI A VIDA INTEIRA PRA TE DAR
@@ -49,14 +49,12 @@ Sinopse_Musical :
 @Categorias : [ Dolente ]
 
 * Harmonia :
-tom:
+tom: E
 Bpm :
-parte: "A", notas: [  ], compassos( ),  repete(), detalhe: "",
-parte: "transicao", notas: [  ], compassos( ),   repete(), detalhe: "",
-parte: "B", notas: [  ], compassos( ),   repete(), detalhe: "",
-parte: "transicao", notas: [  ], compassos( ),   repete(), detalhe: "",
-parte: "REFRAO", notas: [  ], compassos( ),   repete(), detalhe: "",
-parte: "transicao", notas: [  ], compassos( ),   repete(), detalhe: "",
-parte: "C", notas: [  ], compassos( ),   repete(), detalhe: "",
+parte: "A", notas: [ B7 E C#M  A G#M D7 B7 ]
+parte: "B", notas: [ B7 E C#M  A G#M - BM - E7  ]
+parte: "C", notas: [ A G#M - BM E7 A G#M  ]
+parte: "D", notas: [ A G#M - Dº F#M  B7 E7 ]
+parte: "REFRAO", notas: [ A G#M - BM E7 A G#M - BM E7 A - G#7 C#M BM E7 ]
 
 ------------------------------------
