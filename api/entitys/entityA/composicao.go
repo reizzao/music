@@ -9,5 +9,4 @@ type Composicao struct {
 	LetraTecnica   entityB.LetraTecnica
 	DataComposicao string // todo : date
 	Tom            string
-	Harmonia       []entityB.Harmonia
 }
