@@ -2,6 +2,7 @@ package entityA
 
 import "github.com/reizzao/music/api/entitys/entityB"
 
+
 type Composicao struct {
 	Musica         entityB.MusicaComposicao
 	Categoria      entityB.CategoriaMusical
@@ -10,3 +11,5 @@ type Composicao struct {
 	DataComposicao string // todo : date
 	Tom            string
 }
+
+type CantoVogalFinal = []string

@@ -77,13 +77,20 @@ A PAIXÃO EM MIM.
 
 				entityB.PerguntaResposta{
 					Momento: seedMusical.Parte_A_Piano,
-					Fato: entityB.Fato{
-						Letra:   "SE É OBRA DO DESTINO A GENTE SE CONHECER",
-						Acordes: []entityB.Cadencia{seedMusical.Cadencia_InicioRelativo_16},
+					Fato: entityB.PropsArranjo{
+						Letra:           "SE É OBRA DO DESTINO",
+						CantoVogalFinal: seedMusical.CantoVogalFinal_Baixo,
+						Acorde:          seedMusical.Inicia_Repouso,
 					},
-					Explicacao_do_Fato: entityB.Explicacao_do_Fato{
-						Letra:   "NÃO HÁ PORQUE SE ESCONDER DE MIM",
-						Acordes: []entityB.Cadencia{seedMusical.Cadencia_Finaliza_SobeeTenso},
+					Consequencia_do_Fato: entityB.PropsArranjo{
+						Letra:           "A GENTE SE CONHECER",
+						CantoVogalFinal: seedMusical.CantoVogalFinal_Medio,
+						Acorde:          seedMusical.Continua_Relativo,
+					},
+					Finaliza_Fato: entityB.PropsArranjo{
+						Letra:           "NÃO HÁ PORQUE SE ESCONDER DE MIM.",
+						CantoVogalFinal: seedMusical.CantoVogalFinal_Medio,
+						Acorde:          seedMusical.Finaliza_SobeDistancia,
 					},
 				}, //
 			},

@@ -1,5 +1,7 @@
 package entityB
 
+import "github.com/reizzao/music/api/entitys/entityA"
+
 type LetraTecnica struct {
 	Frase []Frase
 }
@@ -9,9 +11,10 @@ type Frase struct {
 }
 
 type PerguntaResposta struct {
-	Fato               Fato
-	Explicacao_do_Fato Explicacao_do_Fato
-	Momento            MomentoEstrofe
+	Fato                 PropsArranjo
+	Consequencia_do_Fato PropsArranjo
+	Finaliza_Fato        PropsArranjo
+	Momento              MomentoEstrofe
 }
 
 type MomentoEstrofe struct {
@@ -19,17 +22,12 @@ type MomentoEstrofe struct {
 	ClimaVoz string
 }
 
-type Fato struct {
-	Letra   string
-	Acordes []Cadencia
+type PropsArranjo struct {
+	Letra           string
+	CantoVogalFinal entityA.CantoVogalFinal
+	Acorde          Acorde
 }
 
-type Explicacao_do_Fato struct {
-	Letra   string
-	Acordes []Cadencia
-}
-
-type Cadencia = []ICadencia
-type ICadencia struct {
-	Graus []string
+type Acorde struct {
+	Grau string
 }
