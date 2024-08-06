@@ -1,4 +1,4 @@
-package controleSeed
+package seeddefault
 
 import (
 	"github.com/reizzao/music/api/entitys/entityC"
@@ -8,15 +8,15 @@ import (
 
 var ControleDEFAULT = entityC.EstadoAtualTrabalho{
 	ContratoComposicao: entityD.ContratoComposicao{
-		Vigente: false,
+		Vigente:         false,
 		DataContratacao: "",
-		DataExpiracao: "",
-		Duracao: 0,
+		DataExpiracao:   "",
+		Duracao:         0,
 		Pagamentos: entityE.PagamentosLiberacoes{
 			ValorContratado: 0,
-			EmAberto: 0,
-			Pago: 0,
-			Debito: 0,
+			EmAberto:        0,
+			Pago:            0,
+			Debito:          0,
 		},
 	},
 }

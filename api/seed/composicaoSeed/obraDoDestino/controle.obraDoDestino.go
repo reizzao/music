@@ -1,4 +1,4 @@
-package controleSeed
+package obraDoDestino
 
 import (
 	"github.com/reizzao/music/api/entitys/entityC"

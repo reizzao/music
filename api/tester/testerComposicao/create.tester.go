@@ -3,12 +3,12 @@ package testerComposicao
 import (
 	"fmt"
 
-	"github.com/reizzao/music/api/seeds/composicaoSeed"
+	"github.com/reizzao/music/api/seed/composicaoSeed/obraDoDestino"
 	"github.com/reizzao/music/api/usecases/composicao"
 )
 
 func TesterComposicao() {
-	obraDoDestino := composicao.New(composicaoSeed.ObraDoDestino)
+	obraDoDestino := composicao.New(obraDoDestino.Musica_ObraDoDestino)
 
 	fmt.Println(obraDoDestino)
 }
