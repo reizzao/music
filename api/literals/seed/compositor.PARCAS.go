@@ -1,10 +1,10 @@
 package seed
 
-import "github.com/reizzao/music/api/entitys/entityB"
+import "github.com/reizzao/music/api/modules/composicao/types_aux"
 
-var CompositorPaulinhoDC = entityB.Compositor{
+var CompositorPaulinhoDC = types_aux.Compositor{
 	NomeArtistico: "PaulinhoDC",
-	Redes: entityB.RedesCompositor{
+	Redes: types_aux.RedesCompositor{
 		Instagram: "@PaulinhoDC15",
 		Youtube:   "",
 		PaginaWeb: "",

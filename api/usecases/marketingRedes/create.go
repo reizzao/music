@@ -1,7 +1,9 @@
 package marketingRedes
 
-import "github.com/reizzao/music/api/entitys/entityA"
+import (
+	"github.com/reizzao/music/api/modules/marketing"
+)
 
-func New(m entityA.MarketingRedes) entityA.MarketingRedes{
+func New(m marketing.MarketingRedes) marketing.MarketingRedes {
 	return m
 }

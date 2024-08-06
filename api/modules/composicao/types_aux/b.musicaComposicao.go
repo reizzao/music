@@ -1,4 +1,4 @@
-package entityB
+package types_aux
 
 type MusicaComposicao struct {
 	Nome         string
@@ -20,6 +20,6 @@ type Guia struct {
 
 type RedesCompositor struct {
 	Instagram string
-	Youtube      string
-	PaginaWeb      string
+	Youtube   string
+	PaginaWeb string
 }

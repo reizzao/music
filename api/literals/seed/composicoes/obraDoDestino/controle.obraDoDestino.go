@@ -1,22 +1,20 @@
 package obraDoDestino
 
 import (
-	"github.com/reizzao/music/api/entitys/entityC"
-	"github.com/reizzao/music/api/entitys/entityD"
-	"github.com/reizzao/music/api/entitys/entityE"
+	"github.com/reizzao/music/api/modules/composicao/types_aux"
 )
 
-var ControleObraDoDestino = entityC.EstadoAtualTrabalho{
-	ContratoComposicao: entityD.ContratoComposicao{
-		Vigente: false,
+var ControleObraDoDestino = types_aux.EstadoAtualTrabalho{
+	ContratoComposicao: types_aux.ContratoComposicao{
+		Vigente:         false,
 		DataContratacao: "",
-		DataExpiracao: "",
-		Duracao: 0,
-		Pagamentos: entityE.PagamentosLiberacoes{
+		DataExpiracao:   "",
+		Duracao:         0,
+		Pagamentos: types_aux.PagamentosLiberacoes{
 			ValorContratado: 0,
-			EmAberto: 0,
-			Pago: 0,
-			Debito: 0,
+			EmAberto:        0,
+			Pago:            0,
+			Debito:          0,
 		},
 	},
 }

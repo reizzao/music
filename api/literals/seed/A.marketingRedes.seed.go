@@ -1,9 +1,9 @@
 package seed
 
-import "github.com/reizzao/music/api/entitys/entityA"
+import "github.com/reizzao/music/api/modules/marketing"
 
-var MarketingRedes = entityA.MarketingRedes{
-	Artistas: []entityA.Artistas{
+var MarketingRedes = marketing.MarketingRedes{
+	Artistas: []marketing.Artistas{
 		Artista_Pericles, Artista_Mumuzinho, Artista_Ferrugem,
 	},
 }

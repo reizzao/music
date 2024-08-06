@@ -1,4 +1,4 @@
-package entityA
+package marketing
 
 type MarketingRedes struct {
 	Artistas []Artistas
@@ -19,5 +19,5 @@ type ArtistasPropsMKT struct {
 type ProdutorProps struct {
 	Youtube   string
 	Instagram string
-	Email string
+	Email     string
 }

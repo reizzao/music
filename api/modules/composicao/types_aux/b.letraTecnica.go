@@ -1,4 +1,4 @@
-package entityB
+package types_aux
 
 type LetraTecnica struct {
 	Frase []Frase
@@ -11,7 +11,7 @@ type Frase struct {
 type PerguntaResposta struct {
 	Fato                 PropsArranjo
 	Consequencia_do_Fato PropsArranjo
-	Finaliza_Fato        PropsArranjo
+	O_Que_Resolve        PropsArranjo
 	Momento              MomentoEstrofe
 }
 

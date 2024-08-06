@@ -1,30 +1,30 @@
 package obraDoDestino
 
 import (
-	"github.com/reizzao/music/api/entitys/entityA"
-	"github.com/reizzao/music/api/entitys/entityB"
 	"github.com/reizzao/music/api/literals/seed"
+	"github.com/reizzao/music/api/modules/composicao"
+	"github.com/reizzao/music/api/modules/composicao/types_aux"
 )
 
-var Musica_ObraDoDestino = entityA.Composicao{
-	Musica: entityB.MusicaComposicao{
+var Musica_ObraDoDestino = composicao.Composicao{
+	Musica: types_aux.MusicaComposicao{
 		Nome: "OBRA DO DESTINO",
-		Compositor: []entityB.Compositor{
+		Compositor: []types_aux.Compositor{
 			seed.CompositorPaulinhoDC,
 			seed.CompositorREIZAO,
 		},
 		Contatos: "#todo",
 
-		Apresentacao: []entityB.Guia{
+		Apresentacao: []types_aux.Guia{
 			seed.GuiaCaeto_300,
 		},
 
-		Gravacoes: []entityB.GravacoesComposicoes{
+		Gravacoes: []types_aux.GravacoesComposicoes{
 			seed.GravacaoDEFAULT,
 		},
 	},
 
-	Categoria: entityB.CategoriaMusical{
+	Categoria: types_aux.CategoriaMusical{
 		Nome: "Dolente",
 	},
 	Letra: `
@@ -57,31 +57,32 @@ FEZ RENASCER, FEZ DESPERTAR
 A PAIXÃO EM MIM.
 	`,
 
-	LetraTecnica: entityB.LetraTecnica{
+	LetraTecnica: types_aux.LetraTecnica{
 
-		Frase: []entityB.Frase{
+		Frase: []types_aux.Frase{
 
-			entityB.Frase{PerguntaResposta: []entityB.PerguntaResposta{
+			{
+				PerguntaResposta: []types_aux.PerguntaResposta{
 
-				entityB.PerguntaResposta{
-					Momento: seed.Parte_A_Piano,
-					Fato: entityB.PropsArranjo{
-						Letra:           "SE É OBRA DO DESTINO",
-						CantoVogalFinal: seed.CantoVogalFinal_Baixo,
-						Acorde:          seed.Inicia_Repouso,
-					},
-					Consequencia_do_Fato: entityB.PropsArranjo{
-						Letra:           "A GENTE SE CONHECER",
-						CantoVogalFinal: seed.CantoVogalFinal_Medio,
-						Acorde:          seed.Continua_Relativo,
-					},
-					Finaliza_Fato: entityB.PropsArranjo{
-						Letra:           "NÃO HÁ PORQUE SE ESCONDER DE MIM.",
-						CantoVogalFinal: seed.CantoVogalFinal_Medio,
-						Acorde:          seed.Finaliza_SobeDistancia,
-					},
-				}, //
-			},
+					{
+						Momento: seed.Parte_A_Piano,
+						Fato: types_aux.PropsArranjo{
+							Letra:           "SE É OBRA DO DESTINO",
+							CantoVogalFinal: seed.CantoVogalFinal_Baixo,
+							Acorde:          seed.Inicia_Repouso,
+						},
+						Consequencia_do_Fato: types_aux.PropsArranjo{
+							Letra:           "A GENTE SE CONHECER",
+							CantoVogalFinal: seed.CantoVogalFinal_Medio,
+							Acorde:          seed.Continua_Relativo,
+						},
+						O_Que_Resolve: types_aux.PropsArranjo{
+							Letra:           "NÃO HÁ PORQUE SE ESCONDER DE MIM.",
+							CantoVogalFinal: seed.CantoVogalFinal_Medio,
+							Acorde:          seed.Finaliza_SobeDistancia,
+						},
+					}, //
+				},
 			},
 		},
 	},

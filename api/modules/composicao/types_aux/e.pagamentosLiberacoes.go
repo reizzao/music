@@ -1,4 +1,4 @@
-package entityE
+package types_aux
 
 type PagamentosLiberacoes struct {
 	ValorContratado int

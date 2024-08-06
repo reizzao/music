@@ -1,8 +1,9 @@
 package seed
 
-import "github.com/reizzao/music/api/entitys/entityB"
+import "github.com/reizzao/music/api/modules/composicao/types_aux"
 
-var GuiaCaeto_300 = entityB.Guia{
+
+var GuiaCaeto_300 = types_aux.Guia{
 	Interprete: "Caeto",
 	Custo:      300.00,
 }

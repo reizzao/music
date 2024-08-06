@@ -1,7 +1,7 @@
 package composicao
 
-import "github.com/reizzao/music/api/entitys/entityA"
+import "github.com/reizzao/music/api/modules/composicao"
 
-func New(c entityA.Composicao) entityA.Composicao{
+func New(c composicao.Composicao) composicao.Composicao {
 	return c
 }
