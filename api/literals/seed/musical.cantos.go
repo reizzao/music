@@ -1,4 +1,4 @@
-package seedMusical
+package seed
 
 var CantoVogalFinal_Baixo = []string{"O", "U"}
 var CantoVogalFinal_Medio = []string{"E", "I"}

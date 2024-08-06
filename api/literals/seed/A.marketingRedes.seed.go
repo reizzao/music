@@ -1,4 +1,4 @@
-package marketingRedesSeed
+package seed
 
 import "github.com/reizzao/music/api/entitys/entityA"
 

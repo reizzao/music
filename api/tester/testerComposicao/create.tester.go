@@ -3,7 +3,7 @@ package testerComposicao
 import (
 	"fmt"
 
-	"github.com/reizzao/music/api/seed/composicaoSeed/obraDoDestino"
+	"github.com/reizzao/music/api/literals/seed/obras/obraDoDestino"
 	"github.com/reizzao/music/api/usecases/composicao"
 )
 

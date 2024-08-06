@@ -1,4 +1,4 @@
-package seedguia
+package seed
 
 import "github.com/reizzao/music/api/entitys/entityB"
 

@@ -1,4 +1,4 @@
-package seeddefault
+package seed
 
 import (
 	"github.com/reizzao/music/api/entitys/entityC"

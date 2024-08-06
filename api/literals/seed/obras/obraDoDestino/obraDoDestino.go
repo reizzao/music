@@ -3,27 +3,24 @@ package obraDoDestino
 import (
 	"github.com/reizzao/music/api/entitys/entityA"
 	"github.com/reizzao/music/api/entitys/entityB"
-	"github.com/reizzao/music/api/seed/seedMusical"
-	"github.com/reizzao/music/api/seed/seedcompositor"
-	"github.com/reizzao/music/api/seed/seeddefault"
-	"github.com/reizzao/music/api/seed/seedguia"
+	"github.com/reizzao/music/api/literals/seed"
 )
 
 var Musica_ObraDoDestino = entityA.Composicao{
 	Musica: entityB.MusicaComposicao{
 		Nome: "OBRA DO DESTINO",
 		Compositor: []entityB.Compositor{
-			seedcompositor.CompositorPaulinhoDC,
-			seedcompositor.CompositorREIZAO,
+			seed.CompositorPaulinhoDC,
+			seed.CompositorREIZAO,
 		},
 		Contatos: "#todo",
 
 		Apresentacao: []entityB.Guia{
-			seedguia.GuiaCaeto_300,
+			seed.GuiaCaeto_300,
 		},
 
 		Gravacoes: []entityB.GravacoesComposicoes{
-			seeddefault.GravacaoDEFAULT,
+			seed.GravacaoDEFAULT,
 		},
 	},
 
@@ -67,21 +64,21 @@ A PAIXÃO EM MIM.
 			entityB.Frase{PerguntaResposta: []entityB.PerguntaResposta{
 
 				entityB.PerguntaResposta{
-					Momento: seedMusical.Parte_A_Piano,
+					Momento: seed.Parte_A_Piano,
 					Fato: entityB.PropsArranjo{
 						Letra:           "SE É OBRA DO DESTINO",
-						CantoVogalFinal: seedMusical.CantoVogalFinal_Baixo,
-						Acorde:          seedMusical.Inicia_Repouso,
+						CantoVogalFinal: seed.CantoVogalFinal_Baixo,
+						Acorde:          seed.Inicia_Repouso,
 					},
 					Consequencia_do_Fato: entityB.PropsArranjo{
 						Letra:           "A GENTE SE CONHECER",
-						CantoVogalFinal: seedMusical.CantoVogalFinal_Medio,
-						Acorde:          seedMusical.Continua_Relativo,
+						CantoVogalFinal: seed.CantoVogalFinal_Medio,
+						Acorde:          seed.Continua_Relativo,
 					},
 					Finaliza_Fato: entityB.PropsArranjo{
 						Letra:           "NÃO HÁ PORQUE SE ESCONDER DE MIM.",
-						CantoVogalFinal: seedMusical.CantoVogalFinal_Medio,
-						Acorde:          seedMusical.Finaliza_SobeDistancia,
+						CantoVogalFinal: seed.CantoVogalFinal_Medio,
+						Acorde:          seed.Finaliza_SobeDistancia,
 					},
 				}, //
 			},
