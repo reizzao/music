@@ -1,4 +1,4 @@
-package types_aux
+package contract
 
 type PagamentosLiberacoes struct {
 	ValorContratado int

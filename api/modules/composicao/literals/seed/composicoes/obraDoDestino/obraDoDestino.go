@@ -1,30 +1,29 @@
 package obraDoDestino
 
 import (
-	"github.com/reizzao/music/api/modules/composicao"
+	"github.com/reizzao/music/api/modules/composicao/contract"
 	"github.com/reizzao/music/api/modules/composicao/literals/seed"
-	"github.com/reizzao/music/api/modules/composicao/types_aux"
 )
 
-var Musica_ObraDoDestino = composicao.Composicao{
-	Musica: types_aux.MusicaComposicao{
+var Musica_ObraDoDestino = contract.Composicao{
+	Musica: contract.MusicaComposicao{
 		Nome: "OBRA DO DESTINO",
-		Compositor: []types_aux.Compositor{
+		Compositor: []contract.Compositor{
 			seed.CompositorPaulinhoDC,
 			seed.CompositorREIZAO,
 		},
 		Contatos: "#todo",
 
-		Apresentacao: []types_aux.Guia{
+		Apresentacao: []contract.Guia{
 			seed.GuiaCaeto_300,
 		},
 
-		Gravacoes: []types_aux.GravacoesComposicoes{
+		Gravacoes: []contract.GravacoesComposicoes{
 			seed.GravacaoDEFAULT,
 		},
 	},
 
-	Categoria: types_aux.CategoriaMusical{
+	Categoria: contract.CategoriaMusical{
 		Nome: "Dolente",
 	},
 	Letra: `
@@ -57,26 +56,26 @@ FEZ RENASCER, FEZ DESPERTAR
 A PAIXÃO EM MIM.
 	`,
 
-	LetraTecnica: types_aux.LetraTecnica{
+	LetraTecnica: contract.LetraTecnica{
 
-		Frase: []types_aux.Frase{
+		Frase: []contract.Frase{
 
 			{
-				PerguntaResposta: []types_aux.PerguntaResposta{
+				PerguntaResposta: []contract.PerguntaResposta{
 
 					{
 						Momento: seed.Parte_A_Piano,
-						Fato: types_aux.PropsArranjo{
+						Fato: contract.PropsArranjo{
 							Letra:           "SE É OBRA DO DESTINO",
 							CantoVogalFinal: seed.CantoVogalFinal_Baixo,
 							Acorde:          seed.Inicia_Repouso,
 						},
-						Consequencia_do_Fato: types_aux.PropsArranjo{
+						Consequencia_do_Fato: contract.PropsArranjo{
 							Letra:           "A GENTE SE CONHECER",
 							CantoVogalFinal: seed.CantoVogalFinal_Medio,
 							Acorde:          seed.Continua_Relativo,
 						},
-						O_Que_Resolve: types_aux.PropsArranjo{
+						O_Que_Resolve: contract.PropsArranjo{
 							Letra:           "NÃO HÁ PORQUE SE ESCONDER DE MIM.",
 							CantoVogalFinal: seed.CantoVogalFinal_Medio,
 							Acorde:          seed.Finaliza_SobeDistancia,

@@ -1,16 +1,16 @@
 package obraDoDestino
 
 import (
-	"github.com/reizzao/music/api/modules/composicao/types_aux"
+	"github.com/reizzao/music/api/modules/composicao/contract"
 )
 
-var ControleObraDoDestino = types_aux.EstadoAtualTrabalho{
-	ContratoComposicao: types_aux.ContratoComposicao{
+var ControleObraDoDestino = contract.EstadoAtualTrabalho{
+	ContratoComposicao: contract.ContratoComposicao{
 		Vigente:         false,
 		DataContratacao: "",
 		DataExpiracao:   "",
 		Duracao:         0,
-		Pagamentos: types_aux.PagamentosLiberacoes{
+		Pagamentos: contract.PagamentosLiberacoes{
 			ValorContratado: 0,
 			EmAberto:        0,
 			Pago:            0,

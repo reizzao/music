@@ -1,10 +1,10 @@
 package seed
 
-import "github.com/reizzao/music/api/modules/composicao/types_aux"
+import "github.com/reizzao/music/api/modules/composicao/contract"
 
-var CompositorPaulinhoDC = types_aux.Compositor{
+var CompositorPaulinhoDC = contract.Compositor{
 	NomeArtistico: "PaulinhoDC",
-	Redes: types_aux.RedesCompositor{
+	Redes: contract.RedesCompositor{
 		Instagram: "@PaulinhoDC15",
 		Youtube:   "",
 		PaginaWeb: "",

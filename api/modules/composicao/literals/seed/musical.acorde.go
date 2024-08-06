@@ -1,15 +1,14 @@
 package seed
 
-import "github.com/reizzao/music/api/modules/composicao/types_aux"
+import "github.com/reizzao/music/api/modules/composicao/contract"
 
-
-var Inicia_Repouso = types_aux.Acorde{
+var Inicia_Repouso = contract.Acorde{
 	Grau: "5-1",
 }
 
-var Continua_Relativo = types_aux.Acorde{
+var Continua_Relativo = contract.Acorde{
 	Grau: "6",
 }
-var Finaliza_SobeDistancia = types_aux.Acorde{
+var Finaliza_SobeDistancia = contract.Acorde{
 	Grau: "4",
 }

@@ -1,4 +1,4 @@
-package types_aux
+package contract
 
 type GravacoesComposicoes struct {
 	Interprete   string

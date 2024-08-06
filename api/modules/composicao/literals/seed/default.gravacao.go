@@ -1,8 +1,8 @@
 package seed
 
-import "github.com/reizzao/music/api/modules/composicao/types_aux"
+import "github.com/reizzao/music/api/modules/composicao/contract"
 
-var GravacaoDEFAULT = types_aux.GravacoesComposicoes{
+var GravacaoDEFAULT = contract.GravacoesComposicoes{
 	Interprete:   "",
 	TipoGravacao: "",
 	Data:         "",
