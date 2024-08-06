@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/reizzao/music/api/tester/testerComposicao"
+	"github.com/reizzao/music/api/literals/tester/testercomposicao"
 )
 
 func main() {
 	fmt.Println("Hello api Music")
-	testerComposicao.TesterComposicao()
+	testercomposicao.TesterComposicao()
 }

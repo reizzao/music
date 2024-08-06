@@ -1,4 +1,4 @@
-package testerComposicao
+package testercomposicao
 
 import (
 	"fmt"
