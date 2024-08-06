@@ -6,6 +6,7 @@ import (
 	"github.com/reizzao/music/api/entitys/entityC"
 	"github.com/reizzao/music/api/entitys/entityD"
 	"github.com/reizzao/music/api/entitys/entityE"
+	"github.com/reizzao/music/api/seeds/seedMusical"
 )
 
 var ObraDoDestino = entityA.Composicao{
@@ -39,7 +40,7 @@ var ObraDoDestino = entityA.Composicao{
 		Nome: "Dolente",
 	},
 	Letra: `
-	SE É OBRA DO DESTINO A GENTE SE CONHECER
+SE É OBRA DO DESTINO A GENTE SE CONHECER
 NÃO HÁ PORQUE SE ESCONDER DE MIM
 
 O TEU JEITO NÃO ME ENGANA
@@ -79,29 +80,14 @@ A PAIXÃO EM MIM.
 						Parte: "A", ClimaVoz: "PIANO",
 					},
 					Fato: entityB.Fato{
-						Letra:   "",
-						Acordes: []string{"", "", "", "", "", ""},
+						Letra:   "SE É OBRA DO DESTINO A GENTE SE CONHECER",
+						Acordes: []entityB.Cadencia{seedMusical.Cadencia_InicioRelativo_16},
 					},
 					Explicacao_do_Fato: entityB.Explicacao_do_Fato{
-						Letra:   "",
-						Acordes: []string{"", "", "", "", "", ""},
+						Letra:   "NÃO HÁ PORQUE SE ESCONDER DE MIM",
+						Acordes: []entityB.Cadencia{seedMusical.Cadencia_Finaliza_SobeeTenso},
 					},
 				}, //
-
-				entityB.PerguntaResposta{
-					Parte: entityB.Parte{
-						Parte: "A", ClimaVoz: "PIANO",
-					},
-					Fato: entityB.Fato{
-						Letra:   "",
-						Acordes: []string{"", "", "", "", "", ""},
-					},
-					Explicacao_do_Fato: entityB.Explicacao_do_Fato{
-						Letra:   "",
-						Acordes: []string{"", "", "", "", "", ""},
-					},
-				}, //
-
 			},
 			},
 		},

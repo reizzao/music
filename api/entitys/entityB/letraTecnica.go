@@ -21,9 +21,15 @@ type Parte struct {
 
 type Fato struct {
 	Letra   string
-	Acordes []string
+	Acordes []Cadencia
 }
+
 type Explicacao_do_Fato struct {
 	Letra   string
-	Acordes []string
+	Acordes []Cadencia
+}
+
+type Cadencia = []ICadencia
+type ICadencia struct {
+	Graus []string
 }
