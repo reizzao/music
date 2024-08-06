@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/reizzao/music/api/literals/tester/testercomposicao"
+	"github.com/reizzao/music/api/modules/composicao/literals/tester/testercomposicao"
 )
 
 func main() {

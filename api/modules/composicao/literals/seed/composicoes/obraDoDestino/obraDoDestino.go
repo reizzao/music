@@ -1,8 +1,8 @@
 package obraDoDestino
 
 import (
-	"github.com/reizzao/music/api/literals/seed"
 	"github.com/reizzao/music/api/modules/composicao"
+	"github.com/reizzao/music/api/modules/composicao/literals/seed"
 	"github.com/reizzao/music/api/modules/composicao/types_aux"
 )
 

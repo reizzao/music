@@ -1,4 +1,4 @@
-package composicao
+package usecases
 
 import "github.com/reizzao/music/api/modules/composicao"
 
