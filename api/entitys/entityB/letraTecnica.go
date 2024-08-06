@@ -1,7 +1,6 @@
 package entityB
 
 type LetraTecnica struct {
-	Parte Parte
 	Frase []Frase
 }
 
@@ -12,6 +11,7 @@ type Frase struct {
 type PerguntaResposta struct {
 	Fato               Fato
 	Explicacao_do_Fato Explicacao_do_Fato
+	Parte              Parte
 }
 
 type Parte struct {
