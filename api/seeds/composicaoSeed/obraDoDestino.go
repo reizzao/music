@@ -3,23 +3,27 @@ package composicaoSeed
 import (
 	"github.com/reizzao/music/api/entitys/entityA"
 	"github.com/reizzao/music/api/entitys/entityB"
-	"github.com/reizzao/music/api/seeds/controleSeed"
+	"github.com/reizzao/music/api/seeds/seedGravacoes"
 	"github.com/reizzao/music/api/seeds/seedMusical"
+	"github.com/reizzao/music/api/seeds/seedcompositor"
+	"github.com/reizzao/music/api/seeds/seedguia"
 )
 
 var ObraDoDestino = entityA.Composicao{
 	Musica: entityB.MusicaComposicao{
 		Nome:       "OBRA DO DESTINO",
-		Compositor: "Reizao",
+		Compositor: []entityB.Compositor{
+			seedcompositor.CompositorPaulinhoDC,
+			seedcompositor.CompositorREIZAO,
+		},
 		Contatos:   "#todo",
 
+		Apresentacao: []entityB.Guia{
+			seedguia.GuiaCaeto_300,
+		},
+
 		Gravacoes: []entityB.GravacoesComposicoes{
-			entityB.GravacoesComposicoes{
-				Interprete:   "",
-				TipoGravacao: "",
-				Data:         "",
-				Controle:     controleSeed.ControleObraDoDestino,
-			},
+			seedGravacoes.GravacaoDEFAULT,
 		},
 	},
 
