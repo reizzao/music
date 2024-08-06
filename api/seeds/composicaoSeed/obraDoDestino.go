@@ -3,9 +3,7 @@ package composicaoSeed
 import (
 	"github.com/reizzao/music/api/entitys/entityA"
 	"github.com/reizzao/music/api/entitys/entityB"
-	"github.com/reizzao/music/api/entitys/entityC"
-	"github.com/reizzao/music/api/entitys/entityD"
-	"github.com/reizzao/music/api/entitys/entityE"
+	"github.com/reizzao/music/api/seeds/controleSeed"
 	"github.com/reizzao/music/api/seeds/seedMusical"
 )
 
@@ -14,28 +12,17 @@ var ObraDoDestino = entityA.Composicao{
 		Nome:       "FOO",
 		Compositor: "Reizao",
 		Contatos:   "#todo",
+
 		Gravacoes: []entityB.GravacoesComposicoes{
 			entityB.GravacoesComposicoes{
-				Interprete:   "@cantorCaeto",
-				TipoGravacao: "Video e Mp3",
-				Data:         "03/08/2024",
-				EstadoAtualTrabalho: entityC.EstadoAtualTrabalho{
-					ContratoComposicao: entityD.ContratoComposicao{
-						Vigente:         false,
-						DataContratacao: "",
-						DataExpiracao:   "",
-						Duracao:         0,
-						Pagamentos: entityE.PagamentosLiberacoes{
-							ValorContratado: 0,
-							EmAberto:        0,
-							Pago:            0,
-							Debito:          0,
-						},
-					},
-				},
+				Interprete:   "",
+				TipoGravacao: "",
+				Data:         "",
+				Controle:     controleSeed.ControleObraDoDestino,
 			},
 		},
 	},
+
 	Categoria: entityB.CategoriaMusical{
 		Nome: "Dolente",
 	},
