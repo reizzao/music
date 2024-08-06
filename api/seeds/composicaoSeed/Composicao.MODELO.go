@@ -76,7 +76,7 @@ A PAIXÃO EM MIM.
 			entityB.Frase{PerguntaResposta: []entityB.PerguntaResposta{
 
 				entityB.PerguntaResposta{
-					Parte: entityB.Parte{
+					Momento: entityB.MomentoEstrofe{
 						Parte: "A", ClimaVoz: "PIANO",
 					},
 					Fato: entityB.Fato{

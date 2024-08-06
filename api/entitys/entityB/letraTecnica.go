@@ -11,10 +11,10 @@ type Frase struct {
 type PerguntaResposta struct {
 	Fato               Fato
 	Explicacao_do_Fato Explicacao_do_Fato
-	Parte              Parte
+	Momento            MomentoEstrofe
 }
 
-type Parte struct {
+type MomentoEstrofe struct {
 	Parte    string
 	ClimaVoz string
 }
