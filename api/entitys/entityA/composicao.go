@@ -12,4 +12,3 @@ type Composicao struct {
 	Tom            string
 }
 
-// type CantoVogalFinal = []string
