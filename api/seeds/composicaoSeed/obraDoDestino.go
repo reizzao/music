@@ -9,7 +9,7 @@ import (
 
 var ObraDoDestino = entityA.Composicao{
 	Musica: entityB.MusicaComposicao{
-		Nome:       "FOO",
+		Nome:       "OBRA DO DESTINO",
 		Compositor: "Reizao",
 		Contatos:   "#todo",
 
