@@ -4,11 +4,11 @@ import (
 	"fmt"
 
 	"github.com/reizzao/music/api/modules/composicao/literals/seed/composicoes/obraDoDestino"
-	usecasess "github.com/reizzao/music/api/modules/composicao/usecases"
+	"github.com/reizzao/music/api/modules/composicao/usecase"
 )
 
 func TesterComposicao() {
-	obraDoDestino := usecasess.New(obraDoDestino.Musica_ObraDoDestino)
+	obraDoDestino := usecase.New(obraDoDestino.Musica_ObraDoDestino)
 
 	fmt.Println(obraDoDestino)
 }
