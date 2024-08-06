@@ -76,9 +76,7 @@ A PAIXÃO EM MIM.
 			entityB.Frase{PerguntaResposta: []entityB.PerguntaResposta{
 
 				entityB.PerguntaResposta{
-					Parte: entityB.Parte{
-						Parte: "A", ClimaVoz: "PIANO",
-					},
+					Parte: seedMusical.Parte_A_Piano,
 					Fato: entityB.Fato{
 						Letra:   "SE É OBRA DO DESTINO A GENTE SE CONHECER",
 						Acordes: []entityB.Cadencia{seedMusical.Cadencia_InicioRelativo_16},
