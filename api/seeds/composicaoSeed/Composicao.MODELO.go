@@ -80,3 +80,20 @@ var FOO = entityA.Composicao{
 		},
 	},
 }
+
+/*
+entityB.PerguntaResposta{
+					Parte: entityB.Parte{
+						Parte: "A", ClimaVoz: "PIANO",
+					},
+					Fato: entityB.Fato{
+						Letra:   "",
+						Acordes: []string{"", "", "", "", "", ""},
+					},
+					Explicacao_do_Fato: entityB.Explicacao_do_Fato{
+						Letra:   "",
+						Acordes: []string{"", "", "", "", "", ""},
+					},
+				}, //
+
+*/
