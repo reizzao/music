@@ -1,4 +1,6 @@
-package contract
+package contractcomposicao
+
+import "github.com/reizzao/music/api/modules/musical/contractmusical"
 
 type LetraTecnica struct {
 	Frase []Frase
@@ -12,20 +14,15 @@ type PerguntaResposta struct {
 	Fato                 PropsArranjo
 	Consequencia_do_Fato PropsArranjo
 	O_Que_Resolve        PropsArranjo
-	Momento              MomentoEstrofe
+	Momento              contractmusical.MomentoEstrofe
 }
 
-type MomentoEstrofe struct {
-	Parte    string
-	ClimaVoz string
-}
+
 
 type PropsArranjo struct {
 	Letra           string
 	CantoVogalFinal []string
-	Acorde          Acorde
+	Acorde          contractmusical.Acorde
 }
 
-type Acorde struct {
-	Grau string
-}
+

@@ -1,4 +1,4 @@
-package contract
+package contractcomposicao
 
 type EstadoAtualTrabalho struct {
 	ContratoComposicao ContratoComposicao

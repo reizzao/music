@@ -1,7 +1,7 @@
 package usecase
 
-import "github.com/reizzao/music/api/modules/composicao/contract"
+import "github.com/reizzao/music/api/modules/composicao/contractcomposicao"
 
-func New(c contract.Composicao) contract.Composicao {
+func New(c contractcomposicao.Composicao) contractcomposicao.Composicao {
 	return c
 }

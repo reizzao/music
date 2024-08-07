@@ -1,29 +1,33 @@
 package obraDoDestino
 
 import (
-	"github.com/reizzao/music/api/modules/composicao/contract"
-	"github.com/reizzao/music/api/modules/composicao/literals/seed"
+	"github.com/reizzao/music/api/modules/adm/seedadm"
+	"github.com/reizzao/music/api/modules/composicao/contractcomposicao"
+	"github.com/reizzao/music/api/modules/composicao/literals/seed/seedcomposicao"
+	"github.com/reizzao/music/api/modules/marketing/contractmarketing"
+	"github.com/reizzao/music/api/modules/marketing/seedmarketing"
+	"github.com/reizzao/music/api/modules/musical/seedmusical"
 )
 
-var Musica_ObraDoDestino = contract.Composicao{
-	Musica: contract.MusicaComposicao{
+var Musica_ObraDoDestino = contractcomposicao.Composicao{
+	Musica: contractcomposicao.MusicaComposicao{
 		Nome: "OBRA DO DESTINO",
-		Compositor: []contract.Compositor{
-			seed.CompositorPaulinhoDC,
-			seed.CompositorREIZAO,
+		Compositor: []contractcomposicao.Compositor{
+			seedcomposicao.CompositorPaulinhoDC,
+			seedcomposicao.CompositorREIZAO,
 		},
 		Contatos: "#todo",
 
-		Apresentacao: []contract.Guia{
-			seed.GuiaCaeto_300,
+		Apresentacao: []contractmarketing.Guia{
+			seedmarketing.GuiaCaeto_300,
 		},
 
-		Gravacoes: []contract.GravacoesComposicoes{
-			seed.GravacaoDEFAULT,
+		Gravacoes: []contractcomposicao.GravacoesComposicoes{
+			seedadm.GravacaoDEFAULT,
 		},
 	},
 
-	Categoria: contract.CategoriaMusical{
+	Categoria: contractcomposicao.CategoriaMusical{
 		Nome: "Dolente",
 	},
 	Letra: `
@@ -56,29 +60,29 @@ FEZ RENASCER, FEZ DESPERTAR
 A PAIXÃO EM MIM.
 	`,
 
-	LetraTecnica: contract.LetraTecnica{
+	LetraTecnica: contractcomposicao.LetraTecnica{
 
-		Frase: []contract.Frase{
+		Frase: []contractcomposicao.Frase{
 
 			{
-				PerguntaResposta: []contract.PerguntaResposta{
+				PerguntaResposta: []contractcomposicao.PerguntaResposta{
 
 					{
-						Momento: seed.Parte_A_Piano,
-						Fato: contract.PropsArranjo{
+						Momento: seedmusical.Parte_A_Piano,
+						Fato: contractcomposicao.PropsArranjo{
 							Letra:           "SE É OBRA DO DESTINO",
-							CantoVogalFinal: seed.CantoVogalFinal_Baixo,
-							Acorde:          seed.Inicia_Repouso,
+							CantoVogalFinal: seedmusical.CantoVogalFinal_Baixo,
+							Acorde:          seedmusical.Inicia_Repouso,
 						},
-						Consequencia_do_Fato: contract.PropsArranjo{
+						Consequencia_do_Fato: contractcomposicao.PropsArranjo{
 							Letra:           "A GENTE SE CONHECER",
-							CantoVogalFinal: seed.CantoVogalFinal_Medio,
-							Acorde:          seed.Continua_Relativo,
+							CantoVogalFinal: seedmusical.CantoVogalFinal_Medio,
+							Acorde:          seedmusical.Continua_Relativo,
 						},
-						O_Que_Resolve: contract.PropsArranjo{
+						O_Que_Resolve: contractcomposicao.PropsArranjo{
 							Letra:           "NÃO HÁ PORQUE SE ESCONDER DE MIM.",
-							CantoVogalFinal: seed.CantoVogalFinal_Medio,
-							Acorde:          seed.Finaliza_SobeDistancia,
+							CantoVogalFinal: seedmusical.CantoVogalFinal_Medio,
+							Acorde:          seedmusical.Finaliza_SobeDistancia,
 						},
 					}, //
 				},

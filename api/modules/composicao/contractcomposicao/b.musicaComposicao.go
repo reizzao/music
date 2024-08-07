@@ -1,25 +1,20 @@
-package contract
+package contractcomposicao
+
+import "github.com/reizzao/music/api/modules/marketing/contractmarketing"
 
 type MusicaComposicao struct {
 	Nome         string
 	Compositor   []Compositor
 	Contatos     string //TODO : []ContatosComposicao
-	Apresentacao []Guia
+	Apresentacao []contractmarketing.Guia
 	Gravacoes    []GravacoesComposicoes
 }
 
 type Compositor struct {
 	NomeArtistico string
-	Redes         RedesCompositor
+	Redes         contractmarketing.RedesCompositor
 }
 
-type Guia struct {
-	Interprete string
-	Custo      float64
-}
 
-type RedesCompositor struct {
-	Instagram string
-	Youtube   string
-	PaginaWeb string
-}
+
+

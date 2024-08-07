@@ -1,4 +1,4 @@
-package contract
+package contractcomposicao
 
 type GravacoesComposicoes struct {
 	Interprete   string

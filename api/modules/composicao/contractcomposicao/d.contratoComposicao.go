@@ -1,4 +1,4 @@
-package contract
+package contractcomposicao
 
 type ContratoComposicao struct {
 	Vigente         bool

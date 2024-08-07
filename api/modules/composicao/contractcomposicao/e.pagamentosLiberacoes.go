@@ -1,4 +1,4 @@
-package contract
+package contractcomposicao
 
 type PagamentosLiberacoes struct {
 	ValorContratado int

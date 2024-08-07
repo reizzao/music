@@ -1,10 +1,10 @@
-package obraDoDestino
+package seedadm
 
 import (
 	"github.com/reizzao/music/api/modules/composicao/contractcomposicao"
 )
 
-var ControleObraDoDestino = contractcomposicao.EstadoAtualTrabalho{
+var ControleDEFAULT = contractcomposicao.EstadoAtualTrabalho{
 	ContratoComposicao: contractcomposicao.ContratoComposicao{
 		Vigente:         false,
 		DataContratacao: "",
