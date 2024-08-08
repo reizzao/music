@@ -8,7 +8,6 @@ var Grau_1 = contractvoz.Grau{
 	Similar_A_Grau:    "Grau_1 - ele Mesmo",
 	Funcao:            "Repousar",
 	Precisa_Resolucao: false,
-	Sensacaoharmonica: SensacaoRepouso,
 }
 
 var Grau_2 = contractvoz.Grau{
@@ -17,7 +16,6 @@ var Grau_2 = contractvoz.Grau{
 	Similar_A_Grau:    "Grau_4",
 	Funcao:            "Caminhar",
 	Precisa_Resolucao: true,
-	Sensacaoharmonica: SensacaoCaminhar,
 }
 
 var Grau_3 = contractvoz.Grau{
@@ -26,7 +24,6 @@ var Grau_3 = contractvoz.Grau{
 	Similar_A_Grau:    "Grau_1 + Forte",
 	Funcao:            "Reiniciar e Reepousar no Lugar do Grau 1",
 	Precisa_Resolucao: false,
-	Sensacaoharmonica: SensacaoReinicioForte,
 }
 
 var Grau_4 = contractvoz.Grau{
@@ -35,7 +32,6 @@ var Grau_4 = contractvoz.Grau{
 	Similar_A_Grau:    "Grau_2 + Forte",
 	Funcao:            "Continuar Forte - Distanciar, Viajar",
 	Precisa_Resolucao: true,
-	Sensacaoharmonica: SensacaoContinuaForte_Distanciamento,
 }
 
 var Grau_5 = contractvoz.Grau{
@@ -44,7 +40,6 @@ var Grau_5 = contractvoz.Grau{
 	Similar_A_Grau:    "Grau_3 + Forte",
 	Funcao:            "Resolver Acabar Finalizar",
 	Precisa_Resolucao: true,
-	Sensacaoharmonica: SensacaoTensao,
 }
 
 var Grau_6 = contractvoz.Grau{
@@ -53,7 +48,6 @@ var Grau_6 = contractvoz.Grau{
 	Similar_A_Grau:    "Grau_1 + Forte",
 	Funcao:            "Iniciar Tensamente Forte no lugar do Grau 1",
 	Precisa_Resolucao: false,
-	Sensacaoharmonica: SensacaoInicioForte,
 }
 
 var Grau_7 = contractvoz.Grau{
@@ -62,5 +56,4 @@ var Grau_7 = contractvoz.Grau{
 	Similar_A_Grau:    "Grau_5 + Forte",
 	Funcao:            "Passagem para regiao Tensa - Pausa , Freio",
 	Precisa_Resolucao: true,
-	Sensacaoharmonica: SensacaoRepetina,
 }

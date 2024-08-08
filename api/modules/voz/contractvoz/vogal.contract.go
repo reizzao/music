@@ -15,4 +15,4 @@ const (
 	Alta              = 2
 )
 
-type GrausCombina = []SensacaoHarmonica
+type GrausCombina = []Grau

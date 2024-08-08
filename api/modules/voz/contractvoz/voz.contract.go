@@ -15,14 +15,16 @@ type Grau struct {
 	Similar_A_Grau    string
 	Funcao            string
 	Precisa_Resolucao bool
-	Sensacaoharmonica SensacaoHarmonica
+}
+
+type OpcoesFuncoes struct {
+	Caracteristicas string
+	Graus_Normal    Grau
+	Graus_Medio     Grau
+	Graus_Forte     Grau
 }
 
 type ClimaParte struct {
 	Nome         string
 	GrausCombina []Grau
-}
-
-type SensacaoHarmonica struct {
-	Sensacoes []string
 }
