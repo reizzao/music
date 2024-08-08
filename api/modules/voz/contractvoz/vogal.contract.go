@@ -11,8 +11,8 @@ type AlturaVogal = uint64
 
 const (
 	Media AlturaVogal = 0
-	Baixa             = 1
-	Alta              = 2
+	Baixa AlturaVogal = 1
+	Alta  AlturaVogal = 2
 )
 
 type GrausCombina = []Grau
