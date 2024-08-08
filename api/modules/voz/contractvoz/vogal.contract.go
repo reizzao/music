@@ -1,10 +1,10 @@
 package contractvoz
 
 type Vogal struct {
-	Vogal        string
-	Caracteristas        []string
-	GrausCombina GrausCombina
-	Altura       AlturaVogal
+	Vogal         string
+	Caracteristas []string
+	GrausCombina  GrausCombina
+	Altura        AlturaVogal
 }
 
 type AlturaVogal = uint64
@@ -15,4 +15,4 @@ const (
 	Alta              = 2
 )
 
-type GrausCombina = []Sensacao
+type GrausCombina = []SensacaoHarmonica
