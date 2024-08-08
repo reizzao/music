@@ -2,7 +2,7 @@ package contractcomposicao
 
 import "github.com/reizzao/music/api/modules/voz/contractvoz"
 
-type Frases_Auxiliares struct {
+type Inspiracao_Frases struct {
 	CategoriaFrases CategoriaFrases
 	Frase           string
 	VogalTermino    contractvoz.Vogal
