@@ -1,6 +1,6 @@
 package seedvoz
 
-import "github.com/reizzao/music/api/modules/voz/contractvoz"
+import "github.com/reizzao/music/api/modules/voz/contract/contractvoz"
 
 var Vogal_A = contractvoz.Vogal{
 	Vogal:         "A",

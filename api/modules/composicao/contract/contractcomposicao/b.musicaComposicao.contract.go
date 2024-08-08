@@ -1,6 +1,6 @@
 package contractcomposicao
 
-import "github.com/reizzao/music/api/modules/marketing/contractmarketing"
+import "github.com/reizzao/music/api/modules/marketing/contract/contractmarketing"
 
 type MusicaComposicao struct {
 	Nome         string
@@ -14,7 +14,3 @@ type Compositor struct {
 	NomeArtistico string
 	Redes         contractmarketing.RedesCompositor
 }
-
-
-
-

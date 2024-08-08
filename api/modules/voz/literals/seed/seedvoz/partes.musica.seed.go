@@ -1,7 +1,7 @@
 package seedvoz
 
 import (
-	"github.com/reizzao/music/api/modules/voz/contractvoz"
+	"github.com/reizzao/music/api/modules/voz/contract/contractvoz"
 )
 
 var Parte_A_Baixo_Piano = contractvoz.ClimaParte{

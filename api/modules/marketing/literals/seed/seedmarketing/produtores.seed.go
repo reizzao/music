@@ -1,7 +1,7 @@
 package seedmarketing
 
 import (
-	"github.com/reizzao/music/api/modules/marketing/contractmarketing"
+	"github.com/reizzao/music/api/modules/marketing/contract/contractmarketing"
 )
 
 var Produtor_Mumuzinho_Seed = contractmarketing.ProdutorProps{

@@ -1,8 +1,8 @@
 package seedcomposicao
 
 import (
-	"github.com/reizzao/music/api/modules/composicao/contractcomposicao"
-	"github.com/reizzao/music/api/modules/voz/seed/seedvoz"
+	"github.com/reizzao/music/api/modules/composicao/contract/contractcomposicao"
+	"github.com/reizzao/music/api/modules/voz/literals/seed/seedvoz"
 )
 
 var Frase_Amor_de_Milhoes = contractcomposicao.Inspiracao_Frases{

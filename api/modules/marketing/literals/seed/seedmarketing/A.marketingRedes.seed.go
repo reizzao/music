@@ -1,7 +1,7 @@
 package seedmarketing
 
 import (
-	"github.com/reizzao/music/api/modules/marketing/contractmarketing"
+	"github.com/reizzao/music/api/modules/marketing/contract/contractmarketing"
 )
 
 var MarketingRedes = contractmarketing.MarketingRedes{

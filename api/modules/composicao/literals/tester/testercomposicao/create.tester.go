@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/reizzao/music/api/modules/composicao/literals/seed/composicoes/obraDoDestino"
-	"github.com/reizzao/music/api/modules/composicao/usecase"
+	usecase "github.com/reizzao/music/api/modules/composicao/usecase/usecasecomposicao"
 )
 
 func TesterComposicao() {

@@ -1,12 +1,12 @@
 package obraDoDestino
 
 import (
-	"github.com/reizzao/music/api/modules/adm/seedadm"
-	"github.com/reizzao/music/api/modules/composicao/contractcomposicao"
+	"github.com/reizzao/music/api/modules/adm/literals/seed/seedadm"
+	"github.com/reizzao/music/api/modules/composicao/contract/contractcomposicao"
 	"github.com/reizzao/music/api/modules/composicao/literals/seed/seedcomposicao"
-	"github.com/reizzao/music/api/modules/marketing/contractmarketing"
-	"github.com/reizzao/music/api/modules/marketing/seedmarketing"
-	"github.com/reizzao/music/api/modules/musical/seedmusical"
+	"github.com/reizzao/music/api/modules/marketing/contract/contractmarketing"
+	"github.com/reizzao/music/api/modules/marketing/literals/seed/seedmarketing"
+	"github.com/reizzao/music/api/modules/musical/literals/seed/seedmusical"
 )
 
 var Musica_ObraDoDestino = contractcomposicao.Composicao{

@@ -1,6 +1,6 @@
 package seedvoz
 
-import "github.com/reizzao/music/api/modules/voz/contractvoz"
+import "github.com/reizzao/music/api/modules/voz/contract/contractvoz"
 
 var Grau_1 = contractvoz.Grau{
 	Nome:              "Grau_1",

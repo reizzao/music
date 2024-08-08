@@ -1,8 +1,8 @@
 package seedcomposicao
 
 import (
-	"github.com/reizzao/music/api/modules/composicao/contractcomposicao"
-	"github.com/reizzao/music/api/modules/marketing/contractmarketing"
+	"github.com/reizzao/music/api/modules/composicao/contract/contractcomposicao"
+	"github.com/reizzao/music/api/modules/marketing/contract/contractmarketing"
 )
 
 var CompositorREIZAO = contractcomposicao.Compositor{

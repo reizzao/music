@@ -1,13 +1,13 @@
 package seedvoz
 
 import (
-	"github.com/reizzao/music/api/modules/voz/contractvoz"
+	"github.com/reizzao/music/api/modules/voz/contract/contractvoz"
 )
 
 var Funcao_Inicio = contractvoz.OpcoesFuncoes{
 	Caracteristicas: "Repousar",
 	Graus_Normal:    Grau_1,
-	Graus_Medio:     Grau_3,
+	Graus_Medio:     Grau_2,
 	Graus_Forte:     Grau_6,
 }
 

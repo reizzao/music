@@ -1,7 +1,7 @@
 package obraDoDestino
 
 import (
-	"github.com/reizzao/music/api/modules/composicao/contractcomposicao"
+	"github.com/reizzao/music/api/modules/composicao/contract/contractcomposicao"
 )
 
 var ControleObraDoDestino = contractcomposicao.EstadoAtualTrabalho{

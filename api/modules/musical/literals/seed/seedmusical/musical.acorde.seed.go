@@ -1,8 +1,6 @@
 package seedmusical
 
-import "github.com/reizzao/music/api/modules/musical/contractmusical"
-
-
+import "github.com/reizzao/music/api/modules/musical/contract/contractmusical"
 
 var Inicia_Repouso = contractmusical.Acorde{
 	Grau: "5-1",
