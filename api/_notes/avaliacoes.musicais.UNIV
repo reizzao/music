@@ -1,5 +1,5 @@
 TEMPO DE APRENDER
-GRAUS :
+GRAUS :  Comecando sempre no Grave inicio da voz tonica -- e vai variando entre GraveTonico e Agudo - terminando em Medio.
 
 Parte_A_Bloco1
 g1 Grave_Fato - g3 Agudo_Consequencia -- g2 Medio_ConclusaoResolve <DEI TANTO AMOR...E Vc nao entendeu.>
@@ -11,4 +11,7 @@ Parte_C_Fecha_Bloco1
 fecha: 5_1g Medio_ConclusaoResolve <O amor nascer...>
 
 Parte_Meio_Bloco2
- 6g Agudo -- ??? <Mas vou viver d enovo uma paixao...>
+ 7GRAU_com_7setimaPreparacao_GRAVE 6g Agudo -- 4g Grave -- g2 Meio -- 5_1g Medio Fecha <Mas vou viver d enovo uma paixao...>
+
+ Refrao
+ g1 Grave - 3g Agudo - 4g Grave -- 5_1g Medio_Fecha
