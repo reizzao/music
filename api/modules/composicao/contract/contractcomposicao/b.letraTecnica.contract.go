@@ -1,24 +1,31 @@
 package contractcomposicao
 
-import "github.com/reizzao/music/api/modules/musical/contract/contractmusical"
+import "github.com/reizzao/music/api/modules/voz/contract/contractvoz"
 
 type LetraTecnica struct {
 	Frase []Frase
 }
 
 type Frase struct {
-	PerguntaResposta []PerguntaResposta
+	Fato_Consequencia_Conclusao []Props_Frase
 }
 
-type PerguntaResposta struct {
-	Fato                 PropsArranjo
-	Consequencia_do_Fato PropsArranjo
-	O_Que_Resolve        PropsArranjo
-	Momento              contractmusical.MomentoEstrofe
+type Props_Frase struct {
+	Fato_GRAVE                 PropsFraseArranjo
+	Consequencia_do_Fato_AGUDO PropsFraseArranjo
+	Conclusao_Resolve_MEDIO    PropsFraseArranjo
 }
 
-type PropsArranjo struct {
-	Letra           string
-	CantoVogalFinal []string
-	Acorde          contractmusical.Acorde
+type PropsFraseArranjo struct {
+	Letra     string
+	Altura    Altura
+	OpcaoGrau []contractvoz.Grau
 }
+
+type Altura = uint
+
+const (
+	Grave Altura = iota
+	Agudo
+	Medio
+)

@@ -1,5 +1,7 @@
 package seedmusical
 
-import "github.com/reizzao/music/api/modules/musical/contract/contractmusical"
+// TODO DELETAR
 
-var Parte_A_Piano = contractmusical.MomentoEstrofe{Parte: "A", ClimaVoz: "Piano"}
+// import "github.com/reizzao/music/api/modules/musical/contract/contractmusical"
+
+// var Parte_A_Piano = contractmusical.MomentoEstrofe{Parte: "A", ClimaVoz: "Piano"}

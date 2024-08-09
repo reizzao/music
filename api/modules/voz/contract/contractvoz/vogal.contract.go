@@ -10,9 +10,9 @@ type Vogal struct {
 type AlturaVogal = uint64
 
 const (
-	Media AlturaVogal = 0
-	Baixa AlturaVogal = 1
-	Alta  AlturaVogal = 2
+	Media AlturaVogal = iota
+	Baixa
+	Alta
 )
 
 type GrausCombina = []Grau

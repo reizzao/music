@@ -1,4 +1,6 @@
-package obraDoDestino
+package comp_obraDoDestino
+
+// TODO ARRUMAR
 
 import (
 	"github.com/reizzao/music/api/modules/adm/literals/seed/seedadm"
@@ -6,7 +8,6 @@ import (
 	"github.com/reizzao/music/api/modules/composicao/literals/seed/seedcomposicao"
 	"github.com/reizzao/music/api/modules/marketing/contract/contractmarketing"
 	"github.com/reizzao/music/api/modules/marketing/literals/seed/seedmarketing"
-	"github.com/reizzao/music/api/modules/musical/literals/seed/seedmusical"
 )
 
 var Musica_ObraDoDestino = contractcomposicao.Composicao{
@@ -65,24 +66,24 @@ A PAIXÃO EM MIM.
 		Frase: []contractcomposicao.Frase{
 
 			{
-				PerguntaResposta: []contractcomposicao.PerguntaResposta{
+				Fato_Consequencia_Conclusao: []contractcomposicao.Props_Frase{
 
 					{
-						Momento: seedmusical.Parte_A_Piano,
-						Fato: contractcomposicao.PropsArranjo{
-							Letra:           "SE É OBRA DO DESTINO",
-							CantoVogalFinal: seedmusical.CantoVogalFinal_Baixo,
-							Acorde:          seedmusical.Inicia_Repouso,
+						// Momento: seedmusical.Parte_A_Piano,
+						Fato_GRAVE: contractcomposicao.PropsFraseArranjo{
+							Letra: "SE É OBRA DO DESTINO",
+							// CantoVogalFinal: seedmusical.// CantoVogalFinal_Baixo,
+							// Acorde:          seedmusical.Inicia_Repouso,
 						},
-						Consequencia_do_Fato: contractcomposicao.PropsArranjo{
-							Letra:           "A GENTE SE CONHECER",
-							CantoVogalFinal: seedmusical.CantoVogalFinal_Medio,
-							Acorde:          seedmusical.Continua_Relativo,
+						Consequencia_do_Fato_AGUDO: contractcomposicao.PropsFraseArranjo{
+							Letra: "A GENTE SE CONHECER",
+							// CantoVogalFinal: seedmusical.// CantoVogalFinal_Medio,
+							// Acorde:          seedmusical.Continua_Relativo,
 						},
-						O_Que_Resolve: contractcomposicao.PropsArranjo{
-							Letra:           "NÃO HÁ PORQUE SE ESCONDER DE MIM.",
-							CantoVogalFinal: seedmusical.CantoVogalFinal_Medio,
-							Acorde:          seedmusical.Finaliza_SobeDistancia,
+						Conclusao_Resolve_MEDIO: contractcomposicao.PropsFraseArranjo{
+							Letra: "NÃO HÁ PORQUE SE ESCONDER DE MIM.",
+							// CantoVogalFinal: seedmusical.// CantoVogalFinal_Medio,
+							// Acorde:          seedmusical.Finaliza_SobeDistancia,
 						},
 					}, //
 				},
